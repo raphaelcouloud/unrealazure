@@ -6,7 +6,7 @@ variable "base_name" {
 
 #This is the region where the global resource group will be deployed, and global resources like Traffic Manager, etc...
 variable "global_region" {
-  default = "westeurope"
+  default = "FranceCentral"
 }
 
 #This is the name of the global resource group that has shared resources across regions like Traffic Manager, Azure Key Vault, etc..
@@ -52,7 +52,7 @@ variable "images_resource_group_name" {
 }
 
 variable "images_resource_group_location" {
-  default = "westeurope"
+  default = "FranceCentral"
 }
 
 variable "shared_image_gallery" {
